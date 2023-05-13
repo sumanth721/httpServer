@@ -8,6 +8,8 @@
 #define PORT 8080
 
 int main(int argc, char const *argv[]) {
+    printf("Starting HTTP Server\n\n");
+    printf("Waiting for client requests:\n");
     int server_fd, new_socket, valread;
     struct sockaddr_in address;
     int opt = 1;
